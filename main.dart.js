@@ -26751,7 +26751,7 @@ aUX(){var s=$.bP,r=(s==null?$.bP=$.e0():s).dN("[DEFAULT]")
 A.c0(r,$.e_(),!0)
 return A.aLU(A.qd(new A.da(r)).hX("reminders"),A.bbq(),-1,null,!1,t.K1)},
 aLU(a,b,c,d,e,f){var s,r=new A.aHp().$1(a)
-if(c>0||e)r=r.us(e?1:c)
+if(c>0)r=r.us(c)
 s=r.vu().ud(new A.aHq(a))
 return new A.cO(new A.aHr(b,f),s,s.$ti.h("@<b9.T>").aS(f.h("E<0>")).h("cO<1,2>"))},
 bbp(a,b,c,d,e,f){var s=new A.aHi().$1(a)
@@ -89131,7 +89131,7 @@ r.z===$&&A.b()
 this.aw()},
 R(a){var s=$.bP,r=(s==null?$.bP=$.e0():s).dN("[DEFAULT]")
 A.c0(r,$.e_(),!0)
-return A.Uc(new A.avr(this),A.aLU(A.qd(new A.da(r)).hX("daily_challenge"),A.aUe(),-1,null,!0,t.jg),t.UW)}}
+return A.Uc(new A.avr(this),A.aLU(A.qd(new A.da(r)).hX("daily_challenge"),A.aUe(),-1,null,!1,t.jg),t.UW)}}
 A.avs.prototype={
 $0(){return A.b_m()},
 $S:673}
