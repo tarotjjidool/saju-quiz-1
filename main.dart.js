@@ -90116,7 +90116,7 @@ i=A.n().$1$fontWeight(B.B)
 h=t.p
 m=A.aE(A.bn(A.a([p,A.cv(A.a([o,A.jo(!1,!0,A.X(f,new A.aI(new A.bN(16,8,16,8),A.cv(A.bn(A.a([k,A.ar("Level 1",f,f,f,A.ay(j,(A.c(a).ax.a===B.b?A.e():A.f()).gbi(),i,f,f,B.B,0,1.2),f,f)],t.bH),A.aA(f,f,4)),B.t,B.q,B.F),f),B.h,f,new A.aT(n,f,l,m,f,f,B.y),f,f,f,f),f,!0,f,f,f,f,f,f,f,f,f,new A.axR(a),f,f,f,f)],h),B.dq,B.bp,B.F)],h),A.aA(f,8,f)),B.t,B.q,B.z)
 q=A.X(f,A.aE(A.a([new A.aI(new A.bN(24,48,24,24),m,f),A.X(f,f,B.h,(A.c(a).ax.a===B.b?A.e():A.f()).gbP(),f,1,f,f,f)],h),B.N,B.q,B.z),B.h,f,new A.aT(q,f,f,f,f,f,B.y),f,f,f,f)
-p=A.a([A.aA(f,8,f)],h)
+p=A.a([A.aA(f,24,f)],h)
 B.c.W(p,A.aJr(9,new A.axS(g,s,a),!0,t.l7))
 p.push(A.aA(f,100,f))
 p=A.ey(A.wv(new A.aI(new A.aL(24,24,24,24),A.aE(p,B.N,B.q,B.z),f),f),1)
