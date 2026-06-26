@@ -27662,8 +27662,9 @@ avp:function avp(a,b){this.a=a
 this.b=b},
 avo:function avo(a,b){this.a=a
 this.b=b},
-avy:function avy(a,b){this.a=a
-this.b=b},
+avy:function avy(a,b,c){this.a=a
+this.b=b
+this.c=c},
 avx:function avx(a){this.a=a},
 avq:function avq(){},
 b0t(){return new A.q6(new A.cK())},
@@ -89284,7 +89285,7 @@ else A.f()
 m=A.cr(A.bk(A.a([m,A.as("5 Day Streak - Keep it up!",g,g,g,A.ay(l,i,k,g,A.m().$3$fontSize$fontWeight$height(12,B.f,1.3).x,h,0,1.3),g,g)],t.bH),A.aF(g,g,4)),B.t,B.ak,B.F)
 l=f.d.z
 l===$&&A.b()
-return A.fo(g,A.md(g,s,A.wx(A.aC(A.a([q,new A.aE(new A.aK(24,24,24,24),p,g),A.U(g,A.aC(A.a([n,new A.aE(new A.bG(24,32,24,32),A.aC(A.bk(A.a([m,A.kh(!1,!0,A.bd(A.k8("Submit Answer",!1,!0,g,g,!1,!1,!1,"large","primary"),l,new A.avx(f),t.Vf),g,!0,B.u,g,B.u,B.u,g,g,g,g,g,new A.avy(f,a),g,B.u,g,g)],j),A.aF(g,16,g)),B.t,B.q,B.y),g)],j),B.M,B.q,B.y),B.h,g,new A.aN(o,g,g,g,g,g,B.w),g,g,g,g)],j),B.t,B.q,B.F),g),f.e),B.a3,!1,g,g,g,g,g,g,g,g,g,g,g,g,g,new A.avz(a),g,g,g,g,g,g)},
+return A.fo(g,A.md(g,s,A.wx(A.aC(A.a([q,new A.aE(new A.aK(24,24,24,24),p,g),A.U(g,A.aC(A.a([n,new A.aE(new A.bG(24,32,24,32),A.aC(A.bk(A.a([m,A.kh(!1,!0,A.bd(A.k8("Submit Answer",!1,!0,g,g,!1,!1,!1,"large","primary"),l,new A.avx(f),t.Vf),g,!0,B.u,g,B.u,B.u,g,g,g,g,g,new A.avy(f,a,r),g,B.u,g,g)],j),A.aF(g,16,g)),B.t,B.q,B.y),g)],j),B.M,B.q,B.y),B.h,g,new A.aN(o,g,g,g,g,g,B.w),g,g,g,g)],j),B.t,B.q,B.F),g),f.e),B.a3,!1,g,g,g,g,g,g,g,g,g,g,g,g,g,new A.avz(a),g,g,g,g,g,g)},
 $S:676}
 A.avz.prototype={
 $0(){A.lz(this.a).dh()
@@ -89344,14 +89345,16 @@ $S:0}
 A.avy.prototype={
 $0(){var s=0,r=A.K(t.H),q=this,p,o,n
 var $async$$0=A.G(function(a,b){if(a===1)return A.H(b,r)
-while(true)switch(s){case 0:o=A.aHL("",B.l2,!1)
-n=q.a.d
+while(true)switch(s){case 0:n=q.c
+n=n==null?null:B.c.gau(n.b.a.b.a)
+n=A.aHL(n==null?"":n,B.l2,!1)
+p=q.a.d
+p===$&&A.b()
+p=A.aQd(A.au(["questionId",n,"isCorrect",A.aHL(p.r===0,B.l3,!1)],t.N,t.T))
+o=A.lD(q.b)
+n=o.a
 n===$&&A.b()
-n=A.aQd(A.au(["questionId",o,"isCorrect",A.aHL(n.r===0,B.l3,!1)],t.N,t.T))
-p=A.lD(q.b)
-o=p.a
-o===$&&A.b()
-p.HG(o.Vc("ResultExplanation",B.bE,n),null,t.X)
+o.HG(n.Vc("ResultExplanation",B.bE,p),null,t.X)
 return A.I(null,r)}})
 return A.J($async$$0,r)},
 $S:9}
