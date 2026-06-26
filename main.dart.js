@@ -89419,7 +89419,8 @@ if(c.gbC(p)){o=$.iq()
 n=q.a
 m=n.r
 m===$&&A.b()
-if(m===1||o.x.length===0){l=new A.cH(Date.now(),0,!1)
+if(m===1)o.x=A.a([],t.s)
+if(n.r===1||o.x.length===0){l=new A.cH(Date.now(),0,!1)
 k=A.aQp(l)*1e4+A.aQo(l)*100+A.aQn(l)
 if(n.a.f!=null){m=c.fp(p,new A.av7(n))
 j=A.V(m,!0,m.$ti.h("o.E"))}else j=p
