@@ -89223,12 +89223,12 @@ while(true)switch(s){case 0:p=window.localStorage.getItem("completedCategories")
 if(p!=null&&p.length!==0)q.y=A.a(p.split(","),t.s)
 return A.J(null,r)}})
 return A.K($async$H4,r)},
-alG(a){var s,r=B.c.f_(B.q_,a)
-if(r===0)return!0
-if(r<0)return!1
-s=B.q_[r-1]
-if(s==="\uc624\ud589")return B.c.n(this.y,"\uc624\ud589_\ubd80\uc871")
-return B.c.n(this.y,s)}}
+alG(a){var s,r=this,q=B.c.f_(B.q_,a)
+if(q===0)return!0
+if(q<0)return!1
+s=B.q_[q-1]
+if(s==="\uc624\ud589")return B.c.n(r.y,"\uc624\ud589_\uae30\ucd08")||B.c.n(r.y,"\uc624\ud589_\uc0c1\uc0dd")||B.c.n(r.y,"\uc624\ud589_\uc0c1\uadf9")||B.c.n(r.y,"\uc624\ud589_\uacfc\ub2e4")||B.c.n(r.y,"\uc624\ud589_\ubd80\uc871")
+return B.c.n(r.y,s)}}
 A.a8_.prototype={}
 A.acp.prototype={}
 A.a7J.prototype={}
