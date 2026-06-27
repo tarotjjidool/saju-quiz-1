@@ -92260,25 +92260,27 @@ A.aCd.prototype={
 $0(){return A.b5P()},
 $S:688}
 A.aCc.prototype={
-$0(){var s=0,r=A.L(t.H),q=this,p,o,n,m,l
+$0(){var s=0,r=A.L(t.H),q=this,p,o,n,m,l,k
 var $async$$0=A.H(function(a,b){if(a===1)return A.I(b,r)
-while(true)switch(s){case 0:if(q.b){p=q.a.a.e
-o=p!=null&&p.length!==0?"\uc624\ud589_"+A.q(p):q.c
-p=$.h0()
-if(!B.c.n(p.y,o)){n=A.W(p.y,!0,t.N)
+while(true)switch(s){case 0:k=q.a
+if(q.b){p=k.a.e
+o=q.c
+if(o==="\uc624\ud589")o=p!=null&&p.length!==0?"\uc624\ud589_"+A.q(p):"\uc624\ud589_\uc624\ud589\uae30\ucd08"
+k=$.h0()
+if(!B.c.n(k.y,o)){n=A.W(k.y,!0,t.N)
 n.push(o)
-p.y=n
+k.y=n
 m=window.localStorage
 m.toString
 m.setItem("completedCategories",B.c.aC(n,","))
-p.a0()}A.BM(q.d,"LearningPath",null,B.bH,B.d4)}else{p=$.h0()
+k.a0()}A.BM(q.d,"LearningPath",null,B.bH,B.d4)}else{n=$.h0()
 new A.aC9().$0()
-p.a0()
-p=A.eE(1,B.bs,!1)
-n=A.eE(0,B.bs,!1)
-m=A.eE(q.c,B.ax,!1)
-l=q.a.a.e
-A.BN(q.d,"DailySajuChallenge",A.SF(A.am(["questionNumber",p,"answeredCorrect",n,"category",m,"subCategory",A.eE(l==null?"":l,B.ax,!1)],t.N,t.T)),t.X)}return A.J(null,r)}})
+n.a0()
+n=A.eE(1,B.bs,!1)
+m=A.eE(0,B.bs,!1)
+l=A.eE(q.c,B.ax,!1)
+k=k.a.e
+A.BN(q.d,"DailySajuChallenge",A.SF(A.am(["questionNumber",n,"answeredCorrect",m,"category",l,"subCategory",A.eE(k==null?"":k,B.ax,!1)],t.N,t.T)),t.X)}return A.J(null,r)}})
 return A.K($async$$0,r)},
 $S:8}
 A.aC9.prototype={
