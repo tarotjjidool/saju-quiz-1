@@ -90582,40 +90582,42 @@ $0(){return A.b3h()},
 $S:686}
 A.aAi.prototype={
 $1(a){return this.Xi(a)},
-Xi(a){var s=0,r=A.K(t.H),q=1,p=[],o=this,n,m,l,k,j,i
+Xi(a){var s=0,r=A.K(t.H),q=1,p=[],o=this,n,m,l,k,j,i,h
 var $async$$1=A.F(function(b,c){if(b===1){p.push(c)
-s=q}while(true)switch(s){case 0:k=o.a
-j=k.a.c
-s=j!=null&&j.length!==0?2:4
+s=q}while(true)switch(s){case 0:j=o.a
+i=j.a.c
+s=i!=null&&i.length!==0?2:4
 break
 case 2:q=6
-j=$.bP
-m=(j==null?$.bP=$.e2():j).dO("[DEFAULT]")
-A.c1(m,$.e1(),!0)
+i=$.bP
+l=(i==null?$.bP=$.e2():i).dO("[DEFAULT]")
+A.c1(l,$.e1(),!0)
+n=A.qf(new A.d9(l)).i_("daily_challenge").eX(j.a.c)
 s=9
-return A.O(A.b_8(A.qf(new A.d9(m)).i_("daily_challenge").eX(k.a.c)),$async$$1)
-case 9:n=c
-if(k.c!=null)k.X(new A.aAe(k,n))
+return A.O(A.b_8(n),$async$$1)
+case 9:m=c
+if(j.c!=null)j.X(new A.aAe(j,m))
 q=1
 s=8
 break
 case 6:q=5
-i=p.pop()
-if(k.c!=null)k.X(new A.aAf(k))
+h=p.pop()
+if(j.c!=null)j.X(new A.aAf(j))
 s=8
 break
 case 5:s=1
 break
 case 8:s=3
 break
-case 4:if(k.c!=null)k.X(new A.aAg(k))
+case 4:if(j.c!=null)j.X(new A.aAg(j))
 case 3:return A.I(null,r)
 case 1:return A.H(p.at(-1),r)}})
 return A.J($async$$1,r)},
 $S:250}
 A.aAe.prototype={
-$0(){var s=this.a,r=this.b.e
-s.e=r==null?"":r
+$0(){var s=this.a,r=this.b.e,q=r==null
+if((q?"":r).length!==0){if(q)r=""}else r="\ud574\uc124\uc744 \ubd88\ub7ec\uc62c \uc218 \uc5c6\uc2b5\ub2c8\ub2e4."
+s.e=r
 s.f=!1},
 $S:0}
 A.aAf.prototype={
