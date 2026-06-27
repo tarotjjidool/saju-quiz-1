@@ -89489,7 +89489,9 @@ k=A.V(l,!0,l.$ti.h("o.E"))}else k=p
 j=A.a([],t.s)
 l=n.a
 i=l.f==="\uc624\ud589"
-if(i&&l.r!=null){l=J.yL(k,new A.avg(n))
+if(i){l=l.r
+l=l!=null&&l.length!==0}else l=!1
+if(l){l=J.yL(k,new A.avg(n))
 h=A.V(l,!0,l.$ti.h("o.E"))
 l=new A.tE()
 l.rp(m)
