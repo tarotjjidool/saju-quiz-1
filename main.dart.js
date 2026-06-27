@@ -92443,7 +92443,7 @@ k=q.a
 if(q.b){p=k.a.w
 p=A.eE(p==null?"\uc74c\uc591":p,B.ax,!1)
 k=k.a.x
-A.BN(l,"QuizResult",A.SF(A.am(["category",p,"subCategory",A.eE(k==null?"":k,B.ax,!1),"correctCount",A.eE(q.d,B.bs,!1)],t.N,t.T)),t.X)}else{p=A.eE(q.e+1,B.bs,!1)
+A.BN(l,"QuizResult",A.SF(A.am(["category",p,"subCategory",A.eE(k==null?"\uc624\ud589\uae30\ucd08":k,B.ax,!1),"correctCount",A.eE(q.d,B.bs,!1)],t.N,t.T)),t.X)}else{p=A.eE(q.e+1,B.bs,!1)
 o=A.eE(q.d,B.bs,!1)
 n=k.a.r
 n=A.eE(n==null?A.a([],t.s):n,B.ax,!0)
