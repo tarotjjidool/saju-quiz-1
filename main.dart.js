@@ -90680,21 +90680,22 @@ A.azP.prototype={
 $0(){return A.b3b()},
 $S:687}
 A.azO.prototype={
-$0(){var s=0,r=A.K(t.H),q=this,p,o,n,m
+$0(){var s=0,r=A.K(t.H),q=this,p,o,n,m,l
 var $async$$0=A.F(function(a,b){if(a===1)return A.H(b,r)
-while(true)switch(s){case 0:m=q.c
-if(q.b){p=$.fP()
-if(!B.c.n(p.y,m)){o=A.V(p.y,!0,t.N)
-o.push(m)
-p.y=o
+while(true)switch(s){case 0:if(q.b){p=q.a.a.e
+o=p!=null&&p.length!==0?"\uc624\ud589_"+A.q(p):q.c
+p=$.fP()
+if(!B.c.n(p.y,o)){n=A.V(p.y,!0,t.N)
+n.push(o)
+p.y=n
 p.a1()}A.B8(q.d,"LearningPath",null,B.bH,B.d4)}else{p=$.fP()
 new A.azL().$0()
 p.a1()
 p=A.eu(1,B.bs,!1)
-o=A.eu(0,B.bs,!1)
-m=A.eu(m,B.ax,!1)
-n=q.a.a.e
-A.B9(q.d,"DailySajuChallenge",A.Ry(A.ag(["questionNumber",p,"answeredCorrect",o,"category",m,"subCategory",A.eu(n==null?"":n,B.ax,!1)],t.N,t.T)),t.X)}return A.I(null,r)}})
+n=A.eu(0,B.bs,!1)
+m=A.eu(q.c,B.ax,!1)
+l=q.a.a.e
+A.B9(q.d,"DailySajuChallenge",A.Ry(A.ag(["questionNumber",p,"answeredCorrect",n,"category",m,"subCategory",A.eu(l==null?"":l,B.ax,!1)],t.N,t.T)),t.X)}return A.I(null,r)}})
 return A.J($async$$0,r)},
 $S:8}
 A.azL.prototype={
