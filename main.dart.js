@@ -90854,16 +90854,12 @@ var $async$$0=A.F(function(a,b){if(a===1)return A.H(b,r)
 while(true)switch(s){case 0:l=q.c
 k=q.a
 if(q.b){p=k.a.w
-p=A.eu(p==null?"\uc74c\uc591":p,B.ax,!1)
-k=k.a.x
-A.B9(l,"QuizResult",A.Ry(A.ag(["category",p,"subCategory",A.eu(k==null?"":k,B.ax,!1),"correctCount",A.eu(q.d,B.bs,!1)],t.N,t.T)),t.X)}else{p=A.eu(q.e+1,B.bs,!1)
+A.B9(l,"QuizResult",A.Ry(A.ag(["category",A.eu(p==null?"\uc74c\uc591":p,B.ax,!1),"subCategory",A.eu(k.a.x,B.ax,!1),"correctCount",A.eu(q.d,B.bs,!1)],t.N,t.T)),t.X)}else{p=A.eu(q.e+1,B.bs,!1)
 o=A.eu(q.d,B.bs,!1)
 n=k.a.r
 n=A.eu(n==null?A.a([],t.s):n,B.ax,!0)
 m=k.a.w
-m=A.eu(m==null?"\uc74c\uc591":m,B.ax,!1)
-k=k.a.x
-A.B9(l,"DailySajuChallenge",A.Ry(A.ag(["questionNumber",p,"answeredCorrect",o,"questionIds",n,"category",m,"subCategory",A.eu(k==null?"":k,B.ax,!1)],t.N,t.T)),t.X)}return A.I(null,r)}})
+A.B9(l,"DailySajuChallenge",A.Ry(A.ag(["questionNumber",p,"answeredCorrect",o,"questionIds",n,"category",A.eu(m==null?"\uc74c\uc591":m,B.ax,!1),"subCategory",A.eu(k.a.x,B.ax,!1)],t.N,t.T)),t.X)}return A.I(null,r)}})
 return A.J($async$$0,r)},
 $S:8}
 A.aAs.prototype={
