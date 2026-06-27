@@ -90254,7 +90254,8 @@ A.axM.prototype={
 $0(){var s=this.a
 new A.axL(s).$0()
 s.a1()
-A.B9(this.b,"DailySajuChallenge",A.ag(["category","\uc624\ud589","subCategory",this.c,"questionNumber","1","answeredCorrect","0"],t.N,t.z),t.X)},
+s=this.c
+A.B9(this.b,"DailySajuChallenge",A.ag(["category","\uc624\ud589","subCategory",s==="\uc624\ud589\uae30\ucd08"?null:s,"questionNumber","1","answeredCorrect","0"],t.N,t.z),t.X)},
 $S:0}
 A.axL.prototype={
 $0(){this.a.x=A.a([],t.s)},
