@@ -91792,9 +91792,9 @@ $0(){this.a.x=A.a([],t.s)},
 $S:0}
 A.aAf.prototype={
 $1(a0){var s,r,q,p,o,n,m,l,k,j,i,h=this,g="subCategory",f=null,e=h.a.w,d=e[a0],c=A.aw(d.i(0,g)),b=h.b,a=B.c.n(b.y,"\uc624\ud589_"+c)
-if(a0!==0){e=e[a0-1].i(0,g)
-s=B.c.n(b.y,"\uc624\ud589_"+A.q(e))}else s=!0
-e=s?new A.aAa(b,h.c,c):f
+if(a0===0)s=!0
+else{e=e[a0-1].i(0,g)
+s=B.c.n(b.y,"\uc624\ud589_"+A.q(e))}e=s?new A.aAa(b,h.c,c):f
 b=s&&!a
 r=h.c
 if(b)b=(A.c(r).ax.a===B.b?A.f():A.h()).guX()
