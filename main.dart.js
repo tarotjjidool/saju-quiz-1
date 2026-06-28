@@ -91043,22 +91043,22 @@ $0(){return A.b22()},
 $S:677}
 A.axN.prototype={
 $1(a){return this.Xi(a)},
-Xi(a0){var s=0,r=A.L(t.H),q=this,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a
-var $async$$1=A.H(function(a1,a2){if(a1===1)return A.I(a2,r)
-while(true)switch(s){case 0:b=$.c0
-a=(b==null?$.c0=$.ec():b).dO("[DEFAULT]")
-A.cc(a,$.eb(),!0)
+Xi(a1){var s=0,r=A.L(t.H),q=this,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0
+var $async$$1=A.H(function(a2,a3){if(a2===1)return A.I(a3,r)
+while(true)switch(s){case 0:a=$.c0
+a0=(a==null?$.c0=$.ec():a).dO("[DEFAULT]")
+A.cc(a0,$.eb(),!0)
 s=2
-return A.P(A.be6(A.qP(new A.dj(a)).i0("daily_challenge"),A.bcD(),-1,null,!1,t.jg),$async$$1)
-case 2:p=a2
-b=J.a1(p)
-if(b.gbB(p)){o=$.h0()
+return A.P(A.be6(A.qP(new A.dj(a0)).i0("daily_challenge"),A.bcD(),-1,null,!1,t.jg),$async$$1)
+case 2:p=a3
+a=J.a1(p)
+if(a.gbB(p)){o=$.h0()
 n=q.a
 m=n.r
 m===$&&A.b()
 if(m===1)o.x=A.a([],t.s)
 if(n.r===1||o.x.length===0){m=Date.now()
-if(n.a.f!=null){l=b.fo(p,new A.axE(n))
+if(n.a.f!=null){l=a.fo(p,new A.axE(n))
 k=A.W(l,!0,l.$ti.h("o.E"))}else k=p
 j=A.a([],t.s)
 l=n.a
@@ -91073,26 +91073,27 @@ B.c.kP(h,l)
 m=A.fQ(h,0,A.iR(5,"count",t.S),A.a9(h).c)
 l=m.$ti.h("a5<au.E,k>")
 j=A.W(new A.a5(m,new A.axG(),l),!0,l.h("au.E"))}else if(i){g=["\ubaa9","\ud654","\ud1a0","\uae08","\uc218"]
-for(m=J.bZ(k),f=0;f<5;++f){l=m.fo(k,new A.axH(g[f]))
+for(m=J.bZ(k),f=0,e=0;e<5;++e){l=m.fo(k,new A.axH(g[e]))
 h=A.W(l,!0,l.$ti.h("o.E"))
 l=new A.ue()
-l.rq(1000*Date.now())
+l.rq(1000*Date.now()+f)
 B.c.kP(h,l)
+f+=99999
 if(h.length!==0)j.push(B.c.ga7(B.c.gY(h).b.a.b.a))}}else{l=new A.ue()
 l.rq(m)
 m=J.bZ(k)
 m.kP(k,l)
 m=m.kE(k,5)
 l=m.$ti.h("a5<au.E,k>")
-j=A.W(new A.a5(m,new A.axI(),l),!0,l.h("au.E"))}o.x=j}e=b.yX(p,new A.axJ(o.x[n.r-1]),new A.axK(p))
-b=A.W(e.gHD(0),!0,t.N)
-m=e.r
-d=b[m==null?0:m]
+j=A.W(new A.a5(m,new A.axI(),l),!0,l.h("au.E"))}o.x=j}d=a.yX(p,new A.axJ(o.x[n.r-1]),new A.axK(p))
+a=A.W(d.gHD(0),!0,t.N)
+m=d.r
+c=a[m==null?0:m]
 m=new A.ue()
 m.rq(Date.now())
-B.c.kP(b,m)
-c=B.c.f_(b,d)
-if(n.c!=null)n.X(new A.axL(n,e,c,b))}return A.J(null,r)}})
+B.c.kP(a,m)
+b=B.c.f_(a,c)
+if(n.c!=null)n.X(new A.axL(n,d,b,a))}return A.J(null,r)}})
 return A.K($async$$1,r)},
 $S:251}
 A.axE.prototype={
