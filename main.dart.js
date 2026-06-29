@@ -92348,7 +92348,7 @@ while(true)switch(s){case 0:k=q.a
 if(q.b){p=k.a.e
 o=q.c
 if(o==="\uc624\ud589")o=p!=null&&p.length!==0?"\uc624\ud589_"+A.q(p):"\uc624\ud589_\uc624\ud589\uae30\ucd08"
-else if(o==="\uc74c\uc591"&&p!=null&&p.length!==0)o="\uc74c\uc591_"+A.q(p)
+else if(o==="\uc74c\uc591"&&p!=null&&p.length!==0)o=p
 k=$.h0()
 if(!B.c.n(k.y,o)){n=A.W(k.y,!0,t.N)
 n.push(o)
