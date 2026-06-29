@@ -91008,10 +91008,12 @@ q=A.p().$3$fontSize$fontWeight$height(17,B.f,1.4)
 p=A.p().$1$fontWeight(B.z)
 q=A.ar("Daily Challenge",i,i,i,A.aC(q,(A.c(a).ax.a===B.b?A.f():A.h()).gbf(),p,i,i,B.z,0,1.4),i,i)
 p=j.a
-o=p.r
-if(o!=null)p="\uc624\ud589 "+o
-else{p=p.f
-if(p==null)p="\uc74c\uc591\uc624\ud589 \uae30\ucd08"}if(A.c(a).ax.a===B.b)A.f()
+o=p.f
+if(o==="\uc624\ud589"){n=p.r
+n=n!=null&&n.length!==0}else n=!1
+if(n)p="\uc624\ud589 "+A.q(p.r)
+else p=o==null?"\uc74c\uc591":o
+if(A.c(a).ax.a===B.b)A.f()
 else A.h()
 o=A.p().$3$fontSize$fontWeight$height(10,B.f,1.2)
 n=A.p().$0()
