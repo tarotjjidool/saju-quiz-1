@@ -89238,7 +89238,7 @@ alG(a){var s,r=B.c.f_(B.q_,a)
 if(r===0)return!0
 if(r<0)return!1
 s=B.q_[r-1]
-if(s==="\uc74c\uc591")return B.c.n(this.y,"\uc74c\uc591_\uc2ec\ud654")
+if(s==="\uc74c\uc591")return B.c.n(this.y,"\uc74c\uc591_\uc74c\uc591\uc2ec\ud654")
 if(s==="\uc624\ud589")return B.c.n(this.y,"\uc624\ud589_\ubd80\uc871")
 return B.c.n(this.y,s)}}
 A.a80.prototype={}
