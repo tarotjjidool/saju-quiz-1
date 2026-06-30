@@ -92447,7 +92447,7 @@ m=window.localStorage
 m.toString
 m.setItem("completedCategories",B.c.aC(n,","))
 k.a0()}k=A.alR(q.d)
-n=k.x5("//learningPath",null,t.X)
+n=k.x5("/learningPath",null,t.X)
 n.toString
 k.acA(A.aNz(n,B.j5,!1,null),new A.aCk())}else{n=$.h0()
 new A.aCl().$0()
