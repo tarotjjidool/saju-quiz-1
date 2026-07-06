@@ -93731,7 +93731,7 @@ return A.P($.b_0().tj(m,A.bbN(),"ANONYMOUS"),$async$$0)
 case 3:if(b==null){s=1
 break}o=m.e
 n=t.N
-n=A.al(["category","\uc74c\uc591"],n,n)
+n=A.al(["category","\uc74c\uc591","subCategory","\uc74c\uc591_\uc77c\ubc18"],n,n)
 if(o!=null){A.o8(m).toString
 o=$.zF
 o=(o==null?$.zF=new A.uN($.aP()):o).d!=null}else o=!0
