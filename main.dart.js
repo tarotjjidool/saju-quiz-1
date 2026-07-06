@@ -91984,8 +91984,7 @@ A.aAf.prototype={
 $0(){var s=this.a
 new A.aAd(s).$0()
 s.a0()
-s=this.c
-A.vO(this.b,"DailySajuChallenge",A.al(["category","\uc624\ud589","subCategory",s==="\uc624\ud589\uae30\ucd08"?null:s,"questionNumber","1","answeredCorrect","0"],t.N,t.z),t.X)},
+A.vO(this.b,"DailySajuChallenge",A.al(["category","\uc624\ud589","subCategory",this.c,"questionNumber","1","answeredCorrect","0"],t.N,t.z),t.X)},
 $S:0}
 A.aAd.prototype={
 $0(){this.a.x=A.a([],t.s)},
