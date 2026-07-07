@@ -91795,7 +91795,8 @@ r.aI()
 s=r.c
 s.toString
 r.d=A.aS(s,new A.aAt(),t.ZM)
-r.r=r.f=!1},
+r.f=window.localStorage.getItem("ohangExpanded")==="true"
+r.r=window.localStorage.getItem("eumyangExpanded")==="true"},
 bJ(){this.dN()},
 l(){var s=this.d
 s===$&&A.b()
@@ -91902,12 +91903,18 @@ r.a0()
 A.vO(s.e,"DailySajuChallenge",A.al(["category",s.c,"questionNumber","1","answeredCorrect","0"],t.N,t.z),t.X)}},
 $S:0}
 A.aAi.prototype={
-$0(){var s=this.a
-s.r=!s.r},
+$0(){var s=this.a,r=!s.r
+s.r=r
+s=window.localStorage
+s.toString
+s.setItem("eumyangExpanded",String(r))},
 $S:0}
 A.aAj.prototype={
-$0(){var s=this.a
-s.f=!s.f},
+$0(){var s=this.a,r=!s.f
+s.f=r
+s=window.localStorage
+s.toString
+s.setItem("ohangExpanded",String(r))},
 $S:0}
 A.aAk.prototype={
 $0(){this.a.z=A.a([],t.s)},
