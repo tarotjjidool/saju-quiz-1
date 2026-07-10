@@ -89277,18 +89277,21 @@ s.hh(a,b==null?B.dp:b)}return null},
 hZ(a){return this.hm(a,null)},
 b7(a){return this.a.ahm()}}
 A.m2.prototype={
-H4(){var s=0,r=A.L(t.z),q=this,p
+H4(){var s=0,r=A.L(t.z),q=this,p,o,n
 var $async$H4=A.H(function(a,b){if(a===1)return A.I(b,r)
 while(true)switch(s){case 0:p=window.localStorage.getItem("completedCategories")
-if(p!=null&&p.length!==0)q.Q=A.a(p.split(","),t.s)
+o=p!=null&&p.length!==0
+n=t.s
+if(o)q.Q=A.a(p.split(","),n)
+else q.Q=A.a([],n)
 return A.J(null,r)}})
 return A.K($async$H4,r)},
 alJ(a){var s,r=B.c.f0(B.tn,a)
 if(r===0)return!0
 if(r<0)return!1
 s=B.tn[r-1]
-if(s==="\uc74c\uc591")return B.c.n(this.Q,"\uc74c\uc591_\uc2ec\ud654")
-if(s==="\uc624\ud589")return B.c.n(this.Q,"\uc624\ud589_\ubd80\uc871")
+if(s==="\uc74c\uc591")return B.c.n(this.Q,"\uc74c\uc591_\uc751\uc6a9")
+if(s==="\uc624\ud589")return B.c.n(this.Q,"\uc624\ud589_\uc751\uc6a9")
 return B.c.n(this.Q,s)}}
 A.a82.prototype={}
 A.acs.prototype={}
