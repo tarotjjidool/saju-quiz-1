@@ -92595,12 +92595,14 @@ k=q.a
 if(q.b){p=k.a.w
 p=A.eE(p==null?"\uc74c\uc591":p,B.ax,!1)
 k=k.a.x
-A.vM(l,"QuizResult",A.SJ(A.ai(["category",p,"subCategory",A.eE(k==null?"\uc624\ud589\uae30\ucd08":k,B.ax,!1),"correctCount",A.eE(q.d,B.bs,!1)],t.N,t.T)),t.X)}else{p=A.eE(q.e+1,B.bs,!1)
+A.vM(l,"QuizResult",A.SJ(A.ai(["category",p,"subCategory",A.eE(k==null?"":k,B.ax,!1),"correctCount",A.eE(q.d,B.bs,!1)],t.N,t.T)),t.X)}else{p=A.eE(q.e+1,B.bs,!1)
 o=A.eE(q.d,B.bs,!1)
 n=k.a.r
 n=A.eE(n==null?A.a([],t.s):n,B.ax,!0)
 m=k.a.w
-A.vM(l,"DailySajuChallenge",A.SJ(A.ai(["questionNumber",p,"answeredCorrect",o,"questionIds",n,"category",A.eE(m==null?"\uc74c\uc591":m,B.ax,!1),"subCategory",A.eE(k.a.x,B.ax,!1)],t.N,t.T)),t.X)}return A.J(null,r)}})
+m=A.eE(m==null?"\uc74c\uc591":m,B.ax,!1)
+k=k.a.x
+A.vM(l,"DailySajuChallenge",A.SJ(A.ai(["questionNumber",p,"answeredCorrect",o,"questionIds",n,"category",m,"subCategory",A.eE(k==null?"":k,B.ax,!1)],t.N,t.T)),t.X)}return A.J(null,r)}})
 return A.K($async$$0,r)},
 $S:8}
 A.aCZ.prototype={
